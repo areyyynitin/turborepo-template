@@ -1,0 +1,26 @@
+{
+  "name": "@repo/auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/auth.ts",
+  "types": "src/auth.ts",
+  "exports": {
+    ".": "./src/auth.ts"
+  },
+  "scripts": {
+    "dev": "tsup src/* --watch"
+  },
+  "devDependencies": {
+    "@repo/database": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-auth": "^1.6.10"
+  }
+}
