@@ -8,10 +8,9 @@
     ".": "./src/client.ts"
   },
   "scripts": {
-    "dev": "tsup src/* --watch",
-    "migrate": "pnpm dlx prisma migrate dev",
-    "generate": "pnpm dlx prisma generate",
-    "push": "pnpm dlx prisma db push"
+    "db:migrate": "pnpm dlx prisma migrate dev",
+    "db:generate": "pnpm dlx prisma generate",
+    "db:push": "pnpm dlx prisma db push"
   },
   "keywords": [],
   "author": "",
